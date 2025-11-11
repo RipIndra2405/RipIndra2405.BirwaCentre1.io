@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birwa Centre</title>
+
+  <style>
+    body {
+      background: linear-gradient(to right, #f9d423, #ff4e50);
+      font-family: 'Trebuchet MS', sans-serif;
+      margin: 0;
+      padding: 30px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #fff;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    h2 {
+      background: #ffffffcc;
+      color: #d63384;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    h2:hover {
+      background: #ffb6c1;
+      color: #000;
+    }
+
+    h4 {
+      background: #ffffffdd;
+      color: #444;
+      padding: 15px;
+      border-left: 6px solid #ff4e50;
+      border-radius: 8px;
+      box-shadow: 1px 1px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      transition: transform 0.3s;
+    }
+
+    h4:hover {
+      transform: scale(1.02);
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      background: #007bff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      transition: background 0.3s;
+    }
+
+    a:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to Birwa Centre</h1>
+
+  <h2>Location & Ambience</h2>
+  <h4>
+    <script>
+      document.write("Birwa Centre is situated in the tranquil setting of Melkar-Panemangalore, in Bantwal Taluk of Dakshina Kannada district, Karnataka (PIN 574231).");
+      document.write("<br>");
+      document.write("While it lies a little away from the hustle of Mangalore’s city core, it is still conveniently placed along key transit routes, making it easy to reach — a blend of peaceful setting and good connectivity. The surrounding area offers a calm atmosphere which enhances a restful stay or a relaxed event.");
+    </script>
+  </h4>
+
+  <h2>Accommodation & Guest Stay</h2>
+  <h4>
+    <script>
+      document.write("For guests looking to ‘feel at home’, Birwa Centre offers comfortable boarding and lodging with an array of room categories to suit various budgets and needs.");
+      document.write("<br>");
+      document.write("A/C Rooms: Eight air-conditioned rooms equipped with modern amenities including 21” LCD TV, wardrobe with dressing table, 24-hour hot water, safety locker, and laundry/valet service.");
+      document.write("<br>");
+      document.write("Deluxe A/C Rooms: Two premium rooms featuring larger LCD (26”), “post-upedic” beds, comfortable seating with cushion chairs & tea table, and upgraded stationery kit.");
+      document.write("<br>");
+      document.write("General features include: room service, cable/satellite TV, wardrobe with dressing table, 24-hour hot & cold water, ample parking, and lift access.");
+      document.write("<br>");
+      document.write("These details reflect a stay that is both trustworthy and geared to guests who value comfort and service.");
+    </script>
+  </h4>
+
+  <h2>Dining & Restaurants</h2>
+  <h4>
+    <script>
+      document.write("Birwa Centre caters to a wide range of dining tastes:");
+      document.write("<br>");
+      document.write("The ‘Annapoorna Pure Veg Restaurant’ offers vegetarian fare from a separate kitchen.");
+      document.write("<br>");
+      document.write("The ‘Spice – Non Veg Family Restaurant & Bar’ serves delicious non-vegetarian dishes like kori rotti, kori gassi, prawn curry, mackerel pulimunchi, and chicken ghee roast.");
+      document.write("<br>");
+      document.write("Bar & takeaway facility is available, and valet parking ensures a smooth experience.");
+      document.write("<br>");
+      document.write("This combination ensures that families, groups, and business travellers with diverse tastes are all well-accommodated.");
+    </script>
+  </h4>
+
+  <h2>Events, Banquets & Meetings</h2>
+  <h4>
+    <script>
+      document.write("Birwa Centre is well-known for hosting grand events — weddings, receptions, business meetings and open-air celebrations.");
+      document.write("<br>");
+      document.write("The Auditorium can seat up to 1,000 people and comes with balcony seating, green rooms, and full dining facilities.");
+      document.write("<br>");
+      document.write("The Roof Garden Hall offers a 300-seat open-space venue with elegant interiors and a large 20,000 sq ft indoor area.");
+      document.write("<br>");
+      document.write("Catering services (veg & non-veg), decorations, and event management are all available to make every occasion special.");
+    </script>
+  </h4>
+
+  <h2>Services & Features</h2>
+  <h4>
+    <script>
+      document.write("Birwa Centre offers a range of services designed for comfort and convenience:");
+      document.write("<br>");
+      document.write("✔ Ample parking space for guests and event attendees.");
+      document.write("<br>");
+      document.write("✔ 24-hour check-in/check-out facility with hot & cold water.");
+      document.write("<br>");
+      document.write("✔ Lift facility for easy access to all floors.");
+      document.write("<br>");
+      document.write("✔ Separate kitchens for veg and non-veg dining, plus cozy family cabins.");
+      document.write("<br>");
+      document.write("✔ A friendly and dedicated staff ensuring excellent service and guest satisfaction.");
+    </script>
+  </h4>
+
+  <a href="https://www.birwa.in/">More About Us</a>
+
+  <script>
+    // Simple fade-in effect for all sections
+    const sections = document.querySelectorAll('h2, h4');
+    sections.forEach((sec, i) => {
+      sec.style.opacity = 0;
+      sec.style.transition = "opacity 1s ease";
+      setTimeout(() => { sec.style.opacity = 1; }, 300 * i);
+    });
+  </script>
+</body>
+</html>
